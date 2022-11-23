@@ -4,8 +4,8 @@ const jsontoxml = require("jsontoxml");
 
 const workbook = XLSX.readFile("Jolla 5 Primary Parcels.xlsx");
 */
-let apiKeyGoogle = "AIzaSyDiqdv1BdXS8PPbBvuCFr5ZDrnQi1kkQ-c";
-let apiKeyReport = "FXgevQoNSg";
+// = "AIzaSyDiqdv1BdXS8PPbBvuCFr5ZDrnQi1kkQ-c";
+//let apiKeyReport = "FXgevQoNSg";
 
 let map;
 let infoWindow = null;
