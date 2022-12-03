@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "@googlemaps/js-api-loader": "^1.15.1"
+    "@googlemaps/js-api-loader": "^1.15.1",
+    "browserify": "^17.0.0",
+    "xlsx": "^0.18.5",
+    "type": "module"
   }
 }

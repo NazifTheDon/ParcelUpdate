@@ -7,6 +7,10 @@ const workbook = XLSX.readFile("Jolla 5 Primary Parcels.xlsx");
 // = "AIzaSyDiqdv1BdXS8PPbBvuCFr5ZDrnQi1kkQ-c";
 //let apiKeyReport = "FXgevQoNSg";
 
+//import { parcel } from "./readExcel.js";
+let parcel  = require('./readExcel')
+console.log(parcel);
+
 let map;
 let infoWindow = null;
 let mapFeatures = [];
